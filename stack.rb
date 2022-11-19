@@ -1,7 +1,6 @@
 class Stack
-  attr_accessor :numbers, :max_num
+  attr_accessor :numbers
 
-  
   def initialize(numbers)
     @numbers = numbers.clone
     @max_num = 0
