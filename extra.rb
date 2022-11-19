@@ -9,5 +9,3 @@ class Extra < Stack
   end
 end
 
-e = Extra.new
-puts e.Mean
